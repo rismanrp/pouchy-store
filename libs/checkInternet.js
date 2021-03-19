@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const TIMEOUT_INTERNET_CHECK = 5; // seconds
 
 const checkInternet = (url) => {
